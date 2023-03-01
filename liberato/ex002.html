@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Demo JavaScript</title>
+    <script>
+        function soma() {
+            var n1 = document.getElementById("numero1").value;
+            var n2 = document.getElementById("numero2").value;
+            
+            if(!isNaN(n1) && !isNaN(n2)){
+                resultado.innerHTML  = parseInt(n1) + parseInt(n2);
+            }       
+        }
+    </script>
+</head>
+
+<body>
+    <form action="" method="post">
+        <input id="numero1" type="text" />
+        <input id="numero2" type="text" />
+        <input type="button" value="somar" onclick="soma();" />
+    </form>
+    <span id="resultado">0</span>
+</body>
+
+</html>
