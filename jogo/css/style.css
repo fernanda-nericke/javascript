@@ -89,3 +89,7 @@ h3 {
     text-align: center;
     text-shadow: 1px 1px 5px black;
 }
+
+body {
+    background-color: rgb(35, 160, 35);
+}
